@@ -24,7 +24,7 @@ class _CalculatorhomeState extends State<Calculatorhome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreenAccent,
+      backgroundColor: Colors.blueAccent,
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 10),
