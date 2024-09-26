@@ -1,24 +1,29 @@
 ## Preview
 ![Preview](calculator_app/images/ss.png)
 
+
+
 flutter_calculator_app/
 │
 ├── lib/
 │   ├── screens/
-│   │   ├── main_screen.dart          # The main calculator screen UI
-│   │   └── splash_screen.dart        # Splash screen before calculator opens
+│   │   ├── main_screen.dart          # Main calculator screen UI and logic
+│   │   └── splash_screen.dart        # Splash screen that appears before the calculator loads
 │   │
 │   ├── utils/
-│   │   └── design.dart               # Design-related configurations like colors, themes
+│   │   └── design.dart               # Design configurations like colors, fonts, etc.
 │   │
 │   ├── widgets/
-│   │   └── buttons.dart              # Custom reusable buttons for the calculator
+│   │   ├── buttons.dart              # Reusable button widget for the calculator
+│   │   └── display.dart              # Reusable widget to display input and result
 │   │
 │   └── main.dart                     # Main entry point for the app
 │
 ├── assets/
-│   └── fonts/                        # Font files if any
+│   └── fonts/                        # Custom fonts used in the app (if any)
 │
-├── pubspec.yaml                      # Project dependencies and assets
-├── README.md                         # This readme file
-└── .gitignore                        # Files and directories to ignore in git
+├── test/                             # Unit and widget testing files
+│
+├── pubspec.yaml                      # Project dependencies and assets configuration
+├── README.md                         # Documentation of the project
+└── .gitignore                        # Specifies which files to ignore in version control
