@@ -1,5 +1,5 @@
 ## Preview
-![Preview](images/ss.png)
+![Preview](calculator_app/images/ss.png)
 
 flutter_calculator_app/
 │
