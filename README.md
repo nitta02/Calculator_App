@@ -23,6 +23,7 @@ flutter_calculator_app/
 ├── pubspec.yaml                      # Project dependencies and assets
 ├── README.md                         # This readme file
 └── .gitignore                        # Files and directories to ignore in git
+
 ### Code Explanation
 The app's main functionality revolves around taking user input, parsing the expression, and evaluating it using the math_expressions package. For example, here's how the calculation logic works:
 void equalPress() {
