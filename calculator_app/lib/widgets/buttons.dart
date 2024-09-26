@@ -28,7 +28,11 @@ class CalButton extends StatelessWidget {
             child: Center(
               child: Text(
                 title,
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ),

@@ -1,6 +1,4 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
-
-import 'package:calculator_app/home.dart';
+import 'package:calculator_app/screens/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +10,9 @@ class Calculator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Calculatorhome(),
+      home: SplashScreen(),
     );
   }
 }
